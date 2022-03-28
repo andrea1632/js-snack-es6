@@ -14,4 +14,15 @@ nomiArray.forEach((element, index) => {
 }
 )
 console.log(arrayNuovo)
+
+
 //metodo con filter
+
+
+const range = nomiArray.filter((element, index) =>{
+    if ( index>= min && index <= max ){
+        return true;
+    }
+}
+)
+console.log(range)
